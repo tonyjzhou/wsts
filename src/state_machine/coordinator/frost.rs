@@ -799,10 +799,9 @@ pub mod test {
             Config, Coordinator as CoordinatorTrait, State,
         },
         traits::Aggregator as AggregatorTrait,
-        v1, v2,
         util::create_rng,
+        v1, v2,
     };
-    
 
     #[test]
     fn new_coordinator_v1() {
